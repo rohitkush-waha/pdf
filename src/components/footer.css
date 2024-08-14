@@ -1,0 +1,40 @@
+.call-us-logo {
+  background-image: url(https://c.myholidays.com/cms/images/theme/search-sprite-img.png);
+  background-position: -295px 83px;
+  width: 40px;
+  height: 42px;
+  display: inline-block;
+  overflow: hidden;
+  border: 2px solid #b81a52;
+  border-radius: 100%;
+}
+
+.call-us {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #008089;
+  border-radius: 100%;
+  text-align: center;
+  overflow: hidden;
+  padding: 2px 2px 0 2px;
+}
+
+.email-sec {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.address p {
+  text-align: center;
+}
+
+.footer {
+  background: #F8F8F8;
+}

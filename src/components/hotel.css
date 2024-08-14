@@ -1,0 +1,11 @@
+.hotel-star {
+  display: flex;
+}
+.hotel-star svg {
+  width: 20px;
+}
+
+.hotel-flex {
+  display: flex;
+  gap: 20px;
+}

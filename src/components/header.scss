@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header-border{
+    height: 40px;
+    background-color: #00575E;
+}
+.header-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo-section{
+        img{
+            height: 40px;
+        }
+    }
+}
+.call-section{
+    display: flex;
+    align-items: center;
+    .caller{
+        border: 2px solid #00575e;
+        border-radius: 100%;
+        padding: 4px 4px 0px 4px;
+        .caller-img{
+            background: url('https://c.myholidays.com/cms/images/theme/search-sprite-img.png') -295px 83px;
+            width: 40px;
+            height: 40px;
+            display: inline-block;
+            overflow: hidden;
+            border: 2px solid #aa184b;
+            border-radius: 100%;
+        }
+    }
+    .phone-num{
+        position: relative;
+        border: 2px solid #aa184b;
+        padding: 10px;
+        border-radius: 22px;
+        .dash{
+            position: absolute;
+            width: 8px;
+            height: 7px;
+            background: #aa184b;
+            left: -9px;
+            top: 15px;
+            border-top: 2px solid #ffffff;
+            border-bottom: 2px solid #ffffff;
+
+        }
+        .call-text{
+            position: absolute;
+            left: 22px;
+            top: -10px;
+            background: #ffffff;
+        }
+    }
+}
+
+// Hero banner
+.hero-img{
+    img{
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+}
+.flex-price{
+    display: flex;
+    justify-content: space-between;
+    .location{
+        display: flex;
+    }
+}
+.amenities{
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        li{
+            font-size: 14px;
+            color: #343a40;
+            border: 1px solid #c2c2c2;
+            border-radius: 15px;
+            height: 32px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 10px;
+            margin-bottom: 10px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+    }
+    
+}

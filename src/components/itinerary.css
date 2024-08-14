@@ -1,0 +1,23 @@
+.flex-header {
+  display: flex;
+  width: 550px;
+  position: relative;
+}
+
+.itinerary {
+  display: flex;
+  gap: 20px;
+}
+.itinerary img {
+  width: 150px;
+}
+
+.vertical-line {
+  position: absolute;
+  content: "";
+  background: #b2b2b2;
+  top: 20px;
+  width: 2px;
+  left: 35px;
+  height: 100%;
+}
