@@ -31,3 +31,37 @@
 .whymyholidays p {
   line-height: 20px;
 }
+
+.reviewStar ul {
+  display: flex;
+  gap: 5px;
+  list-style: none;
+}
+.reviewStar ul li {
+  width: 24px;
+  height: 24px;
+  background-color: #00b67a;
+  text-align: center;
+  line-height: 26px;
+}
+
+.noFillStar {
+  background-color: #dcdce6 !important;
+}
+
+.truspilotLogo svg {
+  width: 100px;
+}
+
+.star-point span {
+  font-size: 22px;
+  color: #05173C;
+  font-weight: bold;
+}
+
+.trustPilot {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 5px 0;
+}
