@@ -1,3 +1,23 @@
 li{
     list-style: none;
 }
+.cancelation{
+    h3{
+        line-height: 40px;
+    }
+    
+}
+.about-cancel{
+    .title-cancel{
+        color: #2A2A2A;
+        line-height: 25px;
+    }
+    ul{
+        line-height: 20px;
+        li{
+            svg{
+                margin-right: 10px;
+            }
+        }
+    }
+}

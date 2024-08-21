@@ -1,10 +1,44 @@
 .hotel-star{
     display: flex;
+    gap: 5px;
     svg{
-        width: 20px;
+        width: 15px;
     }
 }
 .hotel-flex{
     display: flex;
     gap: 20px;
+    img{
+        border-radius: 15px;
+    }
+    .head{
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .location{
+        font-size: 12px;
+        color: #9A9A9A;
+        display: flex;
+        align-items: center;
+        gap: 3px;
+        svg{
+            width: 13px;
+            height: 13px;
+        }
+    }
+}
+.hotel-content{
+    h3{
+        font-size: 22px;
+        margin: 10px 0;
+    }
+}
+.note{
+    margin: 10px 0;
+    padding: 10px 20px;
+    border: 1px solid #FFB74D;
+    background:#FFFDE7;
+    span{
+        color: #EF6C00;
+    }
 }

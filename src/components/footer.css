@@ -24,17 +24,49 @@
   gap: 20px;
   align-items: center;
 }
+.email-sec p {
+  font-weight: bold;
+  color: #2A2A2A;
+}
+.email-sec a {
+  font-weight: bold;
+  color: #2A2A2A;
+}
+
+.call p {
+  font-weight: bold;
+  color: #2A2A2A;
+}
+.call a {
+  font-weight: bold;
+  color: #2A2A2A;
+}
+
+.visit-us p {
+  font-weight: bold;
+  color: #2A2A2A;
+}
+.visit-us a {
+  font-weight: bold;
+  color: #2A2A2A;
+}
 
 .footer-flex {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
+.address {
+  margin: 20px 0;
+}
 .address p {
   text-align: center;
+  color: #343A40;
 }
 
 .footer {
+  margin-top: 20px;
   background: #F8F8F8;
+  padding: 40px;
 }

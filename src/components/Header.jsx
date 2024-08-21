@@ -17,7 +17,7 @@ function Header() {
           <div className="phone-num">
             <div className="dash"></div>
             <div className="call-text">Call us now!</div>
-            <a>+1 6469348824</a>
+            <a className="number">+1 6469348824</a>
           </div>
         </div>
       </div>
@@ -32,10 +32,10 @@ function Header() {
             <p>Bali <span>(5N)</span></p>
             </div>
         </div>
-        <div>
+        <div className="price-start">
             <p>Starting from:</p>
-            <p>QAR 9,999</p>
-            <p>QAR 8,999</p>
+            <p className="real-price">QAR 8,999</p>
+            <p className="final-price">QAR 9,999</p>
             <p>Per Person on twin sharing</p>
         </div>
       </div>

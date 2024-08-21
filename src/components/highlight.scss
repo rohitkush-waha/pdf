@@ -1,7 +1,49 @@
+.highlights{
+    h3{
+        font-size: 22px;
+        margin: 10px 0;
+    }
+}
 .highlight-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    li{
+        display: flex;
+        gap: 10px;
+        font-size: 14px;
+    }
 }
 .highlight{
     width: 550px;
+}
+.amenities{
+    ul{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5px;
+        li{
+            font-size: 14px;
+            color: #343a40;
+            border: 1px solid #c2c2c2;
+            border-radius: 15px;
+            height: 32px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 10px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+    }
+    
+}
+.content-flex{
+    display: flex;
+}
+.width-60{
+    width: 60%;
 }

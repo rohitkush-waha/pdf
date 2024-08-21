@@ -1,0 +1,33 @@
+.whyRegencyHolidaysListBox.trustedBox {
+  background-color: rgba(41, 121, 255, 0.0509803922);
+}
+
+.whyRegencyHolidaysListBox.travelPartnerBox {
+  background-color: rgba(243, 132, 21, 0.0509803922);
+}
+
+.whyRegencyHolidaysListBox.relaibleSupportbox {
+  background-color: rgba(255, 234, 0, 0.1019607843);
+}
+
+.whyRegencyHolidaysListBox.securePaymentbox {
+  background-color: rgba(15, 175, 82, 0.0509803922);
+}
+
+.whyRegencyHolidaysListBox {
+  display: flex;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  gap: 10px;
+}
+
+.whymyholidays {
+  padding: 25px;
+}
+.whymyholidays h3 {
+  line-height: 40px;
+}
+.whymyholidays p {
+  line-height: 20px;
+}

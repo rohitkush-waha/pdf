@@ -1,14 +1,21 @@
 .inclusion {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  line-height: 25px;
 }
 .inclusion li {
   list-style: none;
 }
+.inclusion li svg {
+  margin-right: 10px;
+}
 
 .inclusion-main {
-  width: 550px;
   border: 1px solid #DFDFDF;
   border-radius: 5px;
   margin: 20px 0;
+  padding: 20px;
+}
+.inclusion-main h3 {
+  line-height: 25px;
 }
